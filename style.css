@@ -1,0 +1,114 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid red;
+}
+
+.logo img {
+  width: 40px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.credit {
+  color: red;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.hero-text h1 span {
+  color: red;
+}
+
+/* IMAGE BOX */
+.image-box {
+  width: 100%;
+  height: 150px;
+  border: 2px dashed red;
+}
+
+.large {
+  width: 400px;
+  height: 250px;
+}
+
+/* SECTION */
+.section {
+  padding: 40px;
+  border-top: 1px solid #222;
+}
+
+.section h2 {
+  text-align: center;
+  color: red;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid red;
+  padding: 20px;
+}
+
+/* BUTTON */
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid red;
+  color: red;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin: 20px auto;
+}
+
+/* POSTS */
+.posts {
+  margin-top: 20px;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid red;
+}
+
+footer img {
+  width: 40px;
+}
